@@ -1,7 +1,15 @@
+package model;
+
+import com.google.gson.annotations.SerializedName;
+
 public class University {
+    @SerializedName("universityId")
     private String id;
+    @SerializedName("universityFullName")
     private String fullName;
+    @SerializedName("universityShortName")
     private String shortName;
+    @SerializedName("universityYearOfFoundation")
     private int yearOfFoundation;
 
     public University(){}
